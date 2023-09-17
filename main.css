@@ -1,13 +1,16 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #333333;
 }
 
+/* header */
 header{
     margin: 0;
     padding: 0;
     background-image: url(img/header-back.png);
-    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 1045px;
 }
 
@@ -15,3 +18,53 @@ header{
     width: 40px;
     height: 40px;
 }
+
+
+
+/* footer */
+footer{
+    
+}
+
+footer hr{
+   border: 1px solid #565656;
+    margin: 0 2% 0 2%;
+    height: 250px;
+}
+
+.footer-container-1{
+    display: flex;
+    justify-content:center;
+}
+
+
+.footer-logo{
+    height: 300px;
+    margin-right: 2%;
+}
+/* footer-menu */
+.footer-menu{
+
+}
+
+/* footer-adr */
+.footer-adr{
+    
+}
+
+.footer-adr img{
+    height: 250px;
+}
+
+/* footer-contacts */
+.footer-contacts{
+    width: 15%;
+}
+
+
+/* footer-social-networks */
+.footer-social-networks{
+    width: 15%;
+}
+
+
