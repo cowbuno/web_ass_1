@@ -2,6 +2,16 @@ html, body{
     padding: 0;
     margin: 0;
     background-color: #333333;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.gold {
+    color: #D1A954;
 }
 
 /* header */
@@ -19,7 +29,25 @@ header{
     height: 40px;
 }
 
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+.button {
+    background-color: #D1A954;
+    color: white;
+    width: 160px;
+    height: 50px;
+    top: 665px;
+    left: 405px;
+
+}
+
+.container {
+    margin-left: 405px;
+}
 
 /* footer */
 footer{
