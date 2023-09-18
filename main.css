@@ -211,6 +211,19 @@ section h2 {
     z-index: 1;
   }
 
+section .container .events-schedule {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+section .container .events-schedule th {
+    background-color: #565656;
+    text-align: left;
+    padding: 10px;
+}
+
 
 /* footer */
 footer {
