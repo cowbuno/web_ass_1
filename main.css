@@ -100,7 +100,7 @@ header .container {
     height: 50px;
     top: 665px;
     left: 405px;
-
+    float: left;
 }
 
 .phone-number a {
@@ -224,6 +224,21 @@ section .container .events-schedule th {
     padding: 10px;
 }
 
+.your-phone {
+    width: 100%;
+    margin-top: 20px;
+    margin: 0 auto
+}
+
+.your-phone form {
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.your-phone .submit-button {
+    float: right;
+    clear: auto;
+}
 
 /* footer */
 footer {
