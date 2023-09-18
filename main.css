@@ -65,11 +65,33 @@ header{
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    width: 88px;
+    height: 100px;
 }
 
+header .container {
+    padding-top: 50px;
+}
 
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.container nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container nav ul li {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 90px;
+}
 
 .button {
     background-color: #D1A954;
@@ -79,6 +101,25 @@ header{
     top: 665px;
     left: 405px;
 
+}
+
+.phone-number a {
+    border-bottom: 2px solid #D1A954;
+}
+
+section .title-info h1 {
+    width: 520px;
+    font-size: 59px;
+    font-weight: 700;
+}
+
+section .title-info p {
+    width: 500px;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -137,6 +178,11 @@ section h2 {
     height: auto;
     margin-left: 3%;
     margin-right: 3%;
+    margin-top: 5%;
+}
+
+.content-imgs {
+    position: relative;
 }
 
 .content-imgs img {
@@ -145,17 +191,19 @@ section h2 {
     height: auto;
 }
 
-.hover-image {
+.content-imgs .hover-image {
     width: 100px;
     height: 100px;
     z-index: 1;
     position: absolute;
+    top: 35%;
+    left: 35%;
     display: flex;
     justify-items: center;
     align-items: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease; /* Smooth transition for the overlay */
-  }
+}
   
 
  .content-imgs:hover .hover-image {
