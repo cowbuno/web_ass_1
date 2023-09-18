@@ -16,6 +16,9 @@ html, body{
     font-family: "OpenSansCons", sans-serif;
 }
 
+.bold {
+    font-weight: 700;
+}
 
 .uppercase {
     text-transform: uppercase;
