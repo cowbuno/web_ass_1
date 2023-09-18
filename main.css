@@ -1,17 +1,56 @@
+@font-face {
+    font-family: "OpenSansCons";
+    src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Light.ttf") format("truetype");
+}
+
 html, body{
     padding: 0;
     margin: 0;
     background-color: #333333;
     color: white;
+    font-family: "OpenSansCons", sans-serif;
 }
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-family: "OpenSans";
+}
+
 
 a {
     text-decoration: none;
     color: white;
 }
 
+
 .gold {
     color: #D1A954;
+}
+
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 /* header */
@@ -30,11 +69,7 @@ header{
     height: 40px;
 }
 
-.no-bullets {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .button {
     background-color: #D1A954;
@@ -46,9 +81,7 @@ header{
 
 }
 
-.container {
-    margin-left: 300px;
-}
+
 
 /* main */
 main {
@@ -58,6 +91,44 @@ main {
 
 section h2 {
     text-align: center;
+    font-size: 40px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.about-text, .about-numbers {
+    margin-right: 3%;
+}
+
+.about-text p {
+    width: 400px;
+    font-size: 13px;
+}
+
+.about-numbers {
+    position: relative;
+    bottom: 50px;
+}
+
+.about-numbers h3 {
+    font-size: 19px;
+}
+
+.about-numbers img {
+    margin-top: 10px;
+}
+
+.about-numbers p {
+    font-weight: 700;
+}
+
+.content-image img {
+    position: relative;
+    bottom: 100px;
 }
 
 .imgs-container {
@@ -94,8 +165,10 @@ section h2 {
 
 
 /* footer */
-footer{
-    
+footer {
+    background-color: burlywood;
+    color: #333333;
+    padding-top: 5%;
 }
 
 footer hr{
@@ -133,6 +206,13 @@ footer hr{
     width: 15%;
 }
 
+.footer-contact-item {
+    margin-bottom: 20px;
+}
+
+.footer-social-network-items li img {
+    margin-bottom: 20px;
+}
 
 /* footer-social-networks */
 .footer-social-networks{
